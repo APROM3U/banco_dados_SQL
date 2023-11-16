@@ -19,11 +19,14 @@ Para conectar em banco de dados SQL Server é necessário instalar os drivers no
 
 * Drivers ODBC necessários para versões PHP:
     https://go.microsoft.com/fwlink/?LinkId=163712
-
-
 >>>
 
 >>>
 PHP
 * Por padrão a opção SQL Server estará desabilitada devido a necessidade de instalação dos drivers, caso necessite, só habilitar a opção no arquivo "index.html".
+>>>
+
+>>>
+**NOTA:**
+ * Projeto está disponível para futuras integrações com mais opções de banco de dados. 
 >>>
