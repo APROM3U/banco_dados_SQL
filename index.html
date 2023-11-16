@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Connect DB</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="conexao.php" method="post">
+          <div>
+            <label class="form-label" for="tipo">Tipo de banco</label><br />
+            <select class="form-select" name="tipo" id="tipo">
+              <option value="1" selected>MySQL</option>
+              <option value="2">PostgreSQL</option>
+              <option value="3" disabled>SQL Server</option>
+            </select>
+          </div>
+          <div>
+            <label class="form-label" for="host">Host</label><br />
+            <input class="form-control" type="text" name="host" id="host" required/>
+          </div>
+          <div>
+            <label for="database">Base de dados</label><br />
+            <input class="form-control" type="text" name="database" id="database" required/>
+          </div>
+          <div>
+            <label class="form-label" for="login">Login</label><br />
+            <input class="form-control" type="text" name="login" id="login" required/>
+          </div>
+          <div>
+            <label class="form-label" for="senha">Password</label><br />
+            <input class="form-control" type="password" name="senha" id="senha" required/>
+          </div>
+          <br />
+          <div>
+            <button type="submit" class="btn btn-primary">Conectar</button>
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
