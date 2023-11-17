@@ -1,7 +1,12 @@
 # TESTE DE BANCO DE DADOS
 
 >>> 
-A fim de facilitar o troubleshooting no acesso de banco de dados, foi desenvolvido a aplicação para validar a conexão com banco de dados, método de conexão utiliza a classe PDO.
+A fim de facilitar o troubleshooting no acesso de banco de dados, foi desenvolvido a aplicação para validar a conexão com banco de dados SQL, método de conexão utiliza a classe PDO.
+
+* MySQL;
+* PostgreSQL;
+* *SQL Server*.
+
 >>>
 
 >>>
